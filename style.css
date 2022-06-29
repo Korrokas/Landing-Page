@@ -110,3 +110,49 @@ footer {
 }
 
 /* Section Two Styling */
+
+#sectwo {
+    margin-bottom: 75px;
+}
+
+#sectwo .minicontain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.standout {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+#infoimages {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.sectwoflex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectwoflex p {
+    width: 150px;
+    text-align: center;
+}
+
+.sectwoimages {
+    height: 150px;
+    width: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 25px;
+}
+
+/* Section Three Styling */
+
+#secthree {
+    background-color: #E5E7EB;
+}
