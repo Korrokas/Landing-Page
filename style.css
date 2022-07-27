@@ -37,7 +37,7 @@ footer {
 }
 
 .minicontain {
-    width: 75%;
+    width: 60%;
 }
 
 /* Section One Styling */
@@ -66,24 +66,23 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 2em;
     margin: 75px 0px;
 }
 
 .maintext, .mainimg {
-    width: 50%;
+    width: 40%;
     height: 200px;
 }
 
 .maintext {
     display: flex;
     align-items: center;
-    flex: 1 0 auto;
+    flex: 0 0 auto;
 }
 
 .maintext h1 {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 800;
     color: #F9FAF8;
     margin: 0;
 }
@@ -102,6 +101,11 @@ footer {
     margin-top: 10px;
     padding: 5px 25px;
     border-radius: 10px;
+}
+
+.mainimg {
+    display: flex;
+    flex: 0 0 auto;
 }
 
 .mainimg img {
@@ -129,7 +133,7 @@ footer {
 
 #infoimages {
     display: flex;
-    gap: 32px;
+    gap: 56px;
     flex-wrap: wrap;
 }
 
